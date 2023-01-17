@@ -1,0 +1,574 @@
+#board {
+  border-collapse: collapse;
+}
+td {
+  width: 150px;
+  height: 150px;
+}
+.white {
+  background-color: lightgray;
+}
+.black {
+  background-color: rgb(125 135 150);
+}
+#whiteKingRook {
+  font-size: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+}
+#whiteKingRook:hover {
+  color: #ffcc00;
+  transform: scale(1.2);
+}
+#whiteKingRook:active {
+    color: #f0f5bf;
+    transform: scale(1.6);
+}
+#whiteQueenRook {
+  font-size: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+}
+#whiteQueenRook:hover {
+  color: #ffcc00;
+  transform: scale(1.2);
+}
+#whiteQueenRook:active {
+    color: #f0f5bf;
+    transform: scale(1.6);
+}
+#whiteKingKnight {
+  font-size: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+}
+#whiteKingKnight:hover {
+  color: #ffcc00;
+  transform: scale(1.2);
+}
+#whiteKingKnight:active {
+    color: #f0f5bf;
+    transform: scale(1.6);
+}
+#whiteQueenKnight {
+  font-size: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+}
+#whiteQueenKnight:hover {
+  color: #ffcc00;
+  transform: scale(1.2);
+}
+#whiteQueenKnight:active {
+    color: #f0f5bf;
+    transform: scale(1.6);
+}
+#whiteKingBishop {
+  font-size: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+}
+#whiteKingBishop:hover {
+  color: #ffcc00;
+  transform: scale(1.2);
+}
+#whiteKingBishop:active {
+    color: #f0f5bf;
+    transform: scale(1.6);
+}
+#whiteQueenBishop {
+  font-size: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+}
+#whiteQueenBishop:hover {
+  color: #ffcc00;
+  transform: scale(1.2);
+}
+#whiteQueenBishop:active {
+    color: #f0f5bf;
+    transform: scale(1.6);
+}
+#whiteKing {
+  font-size: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+}
+#whiteKing:hover {
+  color: #ffcc00;
+  transform: scale(1.2);
+}
+#whiteKing:active {
+    color: #f0f5bf;
+    transform: scale(1.6);
+}
+#whiteQueen {
+  font-size: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+}
+#whiteQueen:hover {
+  color: #ffcc00;
+  transform: scale(1.2);
+}
+#whiteQueen:active {
+    color: #f0f5bf;
+    transform: scale(1.6);
+}
+#blackQueenRook {
+  font-size: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: black;
+  cursor: pointer;
+}
+#blackQueenRook:hover {
+  color: #2c2c2c;
+  transform: scale(1.2);
+}
+#blackQueenRook:active {
+  color: #2c2c2c;
+  transform: scale(1.6);
+}
+#blackQueenKnight {
+  font-size: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: black;
+  cursor: pointer;
+}
+#blackQueenKnight:hover {
+  color: #2c2c2c;
+  transform: scale(1.2);
+}
+#blackQueenKnight:active {
+  color: #2c2c2c;
+  transform: scale(1.6);
+}
+#blackQueenBishop {
+  font-size: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: black;
+  cursor: pointer;
+}
+#blackQueenBishop:hover {
+  color: #2c2c2c;
+  transform: scale(1.2);
+}
+#blackQueenBishop:active {
+  color: #2c2c2c;
+  transform: scale(1.6);
+}
+#blackQueen {
+  font-size: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: black;
+  cursor: pointer;
+}
+#blackQueen:hover {
+  color: #2c2c2c;
+  transform: scale(1.2);
+}
+#blackQueen:active {
+  color: #2c2c2c;
+  transform: scale(1.6);
+}
+#blackKing {
+  font-size: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: black;
+  cursor: pointer;
+}
+#blackKing:hover {
+  color: #2c2c2c;
+  transform: scale(1.2);
+}
+#blackKing:active {
+  color: #2c2c2c;
+  transform: scale(1.6);
+}
+#blackKingBishop {
+  font-size: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: black;
+  cursor: pointer;
+}
+#blackKingBishop:hover {
+  color: #2c2c2c;
+  transform: scale(1.2);
+}
+#blackKingBishop:active {
+  color: #2c2c2c;
+  transform: scale(1.6);
+}
+#blackKingKnight {
+  font-size: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: black;
+  cursor: pointer;
+}
+#blackKingKnight:hover {
+  color: #2c2c2c;
+  transform: scale(1.2);
+}
+#blackKingKnight:active {
+  color: #2c2c2c;
+  transform: scale(1.6);
+}
+#blackKingRook {
+  font-size: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: black;
+  cursor: pointer;
+}
+#blackKingRook:hover {
+  color: #2c2c2c;
+  transform: scale(1.2);
+}
+#blackKingRook:active {
+  color: #2c2c2c;
+  transform: scale(1.6);
+}
+#blackPawn {
+  font-size: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: black;
+  cursor: pointer;
+}
+#blackPawn:hover {
+  color: #2c2c2c;
+  transform: scale(1.2);
+}
+#blackPawn:active {
+  color: #2c2c2c;
+  transform: scale(1.6);
+}
+#blackPawn1 {
+  font-size: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: black;
+  cursor: pointer;
+}
+#blackPawn1:hover {
+  color: #2c2c2c;
+  transform: scale(1.2);
+}
+#blackPawn1:active {
+  color: #2c2c2c;
+  transform: scale(1.6);
+}
+#blackPawn2 {
+  font-size: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: black;
+  cursor: pointer;
+}
+#blackPawn2:hover {
+  color: #2c2c2c;
+  transform: scale(1.2);
+}
+#blackPawn2:active {
+  color: #2c2c2c;
+  transform: scale(1.6);
+}
+#blackPawn3 {
+  font-size: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: black;
+  cursor: pointer;
+}
+#blackPawn3:hover {
+  color: #2c2c2c;
+  transform: scale(1.2);
+}
+#blackPawn3:active {
+  color: #2c2c2c;
+  transform: scale(1.6);
+}
+#blackPawn4 {
+  font-size: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: black;
+  cursor: pointer;
+}
+#blackPawn4:hover {
+  color: #2c2c2c;
+  transform: scale(1.2);
+}
+#blackPawn4:active {
+  color: #2c2c2c;
+  transform: scale(1.6);
+}
+#blackPawn5 {
+  font-size: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: black;
+  cursor: pointer;
+}
+#blackPawn5:hover {
+  color: #2c2c2c;
+  transform: scale(1.2);
+}
+#blackPawn5:active {
+  color: #2c2c2c;
+  transform: scale(1.6);
+}
+#blackPawn6 {
+  font-size: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: black;
+  cursor: pointer;
+}
+#blackPawn6:hover {
+  color: #2c2c2c;
+  transform: scale(1.2);
+}
+#blackPawn6:active {
+  color: #2c2c2c;
+  transform: scale(1.6);
+}
+#blackPawn7 {
+  font-size: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: black;
+  cursor: pointer;
+}
+#blackPawn7:hover {
+  color: #2c2c2c;
+  transform: scale(1.2);
+}
+#blackPawn7:active {
+  color: #2c2c2c;
+  transform: scale(1.6);
+}
+#blackPawn8 {
+  font-size: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: black;
+  cursor: pointer;
+}
+#blackPawn8:hover {
+  color: #2c2c2c;
+  transform: scale(1.2);
+}
+#blackPawn8:active {
+  color: #2c2c2c;
+  transform: scale(1.6);
+}
+#whitePawn1 {
+  font-size: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+}
+#whitePawn1:hover {
+  color: #ffcc00;
+  transform: scale(1.2);
+}
+#whitePawn1:active {
+  color: #f0f5bf;
+  transform: scale(1.6);
+}
+#whitePawn2 {
+  font-size: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+}
+#whitePawn2:hover {
+  color: #ffcc00;
+  transform: scale(1.2);
+}
+#whitePawn2:active {
+  color: #f0f5bf;
+  transform: scale(1.6);
+}
+#whitePawn3 {
+  font-size: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+}
+#whitePawn3:hover {
+  color: #ffcc00;
+  transform: scale(1.2);
+}
+#whitePawn3:active {
+  color: #f0f5bf;
+  transform: scale(1.6);
+}
+#whitePawn4 {
+  font-size: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+}
+#whitePawn4:hover {
+  color: #ffcc00;
+  transform: scale(1.2);
+}
+#whitePawn4:active {
+  color: #f0f5bf;
+  transform: scale(1.6);
+}
+#whitePawn5 {
+  font-size: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+}
+#whitePawn5:hover {
+  color: #ffcc00;
+  transform: scale(1.2);
+}
+#whitePawn5:active {
+  color: #f0f5bf;
+  transform: scale(1.6);
+}
+#whitePawn6 {
+  font-size: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+}
+#whitePawn6:hover {
+  color: #ffcc00;
+  transform: scale(1.2);
+}
+#whitePawn6:active {
+  color: #f0f5bf;
+  transform: scale(1.6);
+}
+#whitePawn7 {
+  font-size: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+}
+#whitePawn7:hover {
+  color: #ffcc00;
+  transform: scale(1.2);
+}
+#whitePawn7:active {
+  color: #f0f5bf;
+  transform: scale(1.6);
+}
+#whitePawn8 {
+  font-size: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+}
+#whitePawn8:hover {
+  color: #ffcc00;
+  transform: scale(1.2);
+}
+#whitePawn8:active {
+  color: #f0f5bf;
+  transform: scale(1.6);
+}
